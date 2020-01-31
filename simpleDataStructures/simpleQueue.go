@@ -21,14 +21,14 @@ type Queue struct {
 // func (s Struct) methodName(variable variableType) returnType { /* code /*}
 
 //// Functions for Queueing
-// Enqueue -- add new message to the back of the queue -- O(1)
+// Enqueue -- add new message to the back of the queue
 func (q *Queue) Enqueue(node *Node) {
 	node.Next = q.Tail
 	q.Tail = node
 	q.Size += 1
 }
 
-// Dequeue -- remove message from the front of the queue -- O(n)
+// Dequeue -- remove message from the front of the queue
 func (q *Queue) Dequeue() *Node {
 
 	if (q.IsEmpty()) {
