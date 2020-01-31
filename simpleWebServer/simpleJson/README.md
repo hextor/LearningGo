@@ -1,4 +1,4 @@
-# Simple Web Server
+# Simple Json
 
 Just a simple web server that returns an array of json representing Book data
 

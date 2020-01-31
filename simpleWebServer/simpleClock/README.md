@@ -1,4 +1,4 @@
-# Simple Web Server
+# Simple Clock
 
 Just a quick example of running a listening port that responds with time.
 
